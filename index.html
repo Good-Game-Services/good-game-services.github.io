@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <!-- Default -->
+	    <title>Good-Game-Services</title>
+        <meta name="description" content="GGS-Network" />
+        <meta name="author" content="GGS-Network" />
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+        <!-- link-->
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="./assets/css/main.css" />
+        <link rel="icon" type="image/icon" href="./assets/favicon.ico" />
+
+        <!-- Bind other scripts -->
+        <script src="./assets/js/three.min.js"></script>
+        <script src="./assets/js/vanata.net.min.js"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    </head>
+    <body>
+        <div id="net"></div>
+        <div id="app">
+            <h1>Welcome to Good-Game-Services Inc.</h1>
+            <p>Good-Game-Services Inc. is a VPN provider located in Germany. We offer complete anonymity on the internet.</p>
+        </div>
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="https://www.instagram.com/goodgameservices" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://github.com/Good-Game-Services" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <strong><a href="https://ggs-network.de">©2022 GGS-Network belongs to the company ©2021 GoodGameServices Inc.</a></strong> | <strong><a href="https://www.apache.org/licenses/LICENSE-2.0">Licence</a></strong> | <strong><a href="https://ggs-network.de/datenschutz.php">Data Policy</a></strong>
+            </ul>
+        </footer>
+    </body>
+    <script>
+    VANTA.NET({
+        el: "#net",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x6d89,
+        backgroundColor: 0x2002f
+    })
+    </script>
+</html>
